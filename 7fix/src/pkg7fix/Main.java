@@ -61,7 +61,7 @@ public class Main {
         ar.add(a3);
         for (animal s:ar){
             s.showName();
-            s.movc();
+            s.move();
         }
     }
     
