@@ -26,7 +26,7 @@ public class Main {
             }
 
             @Override
-            public void movc() {
+            public void move() {
                 System.out.println("Flying");
             }
             
@@ -38,7 +38,7 @@ public class Main {
             }
 
             @Override
-            public void movc() {
+            public void move() {
                 System.out.println("Walking");
             }
             
@@ -50,7 +50,7 @@ public class Main {
             }
 
             @Override
-            public void movc() {
+            public void move() {
                 System.out.println("Swimming");
             }
             
