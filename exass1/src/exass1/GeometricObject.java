@@ -3,13 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pkg7fix;
+package exass1;
 
 /**
  *
  * @author Thirafi Wian
  */
-public abstract class animal {
-    public abstract void showName();
-    public abstract void move();
+public interface GeometricObject {
+    public final double PI = 3.14;
+    
+    public double getPerimeter();
+    public double getArea();
 }

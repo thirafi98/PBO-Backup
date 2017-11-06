@@ -11,10 +11,7 @@ package mod7d;
  */
 public class bird extends animal{
     
-    public void flying(){
-        System.out.println("weiiiiii");
-    }
-    
+   
     @Override
     public void showName() {
         System.out.println("ini burung");

@@ -3,23 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mod7d;
+package exass1;
 
 /**
  *
  * @author Thirafi Wian
  */
-public class cat extends animal{
-
-      
-    @Override
-    public void showName() {
-        System.out.println("ini kucing");
-    }
+public class ResizeableCircle extends Circle implements Resizeable{
+//    public ResizeableCircle(double radius) {
+//        super(radius);
+//    }
 
     @Override
-    public void movc() {
-        System.out.println("walking");
+    public void resize(int percent) {
+        radius *= percent;
     }
-    
 }
